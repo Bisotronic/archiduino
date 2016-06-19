@@ -76,7 +76,7 @@ BisoTronic website: www.bisotronic.it
 
 ##License
 
-This repository is released under the Creative Commons ShareAlike 4.0 International license. You are welcome to use this code for commercial purposes. If you'll build your own Archiduino and/or you'll improve our (poor) code, please let us know writing your thoughts here: info <at> seletronica <dot> com. We just started learning! 
+This repository is released under the Creative Commons ShareAlike 4.0 International license. You are welcome to use this code for commercial purposes. If you'll build your own Archiduino and/or you'll improve our (poor) code, please let us know writing your thoughts here: info 'at' seletronica 'dot' com. We just started learning! 
 
 Please consider contributing back to this repository or others to help the open-source hardware community continue to thrive and grow!
 

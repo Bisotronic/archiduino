@@ -55,7 +55,7 @@ We don’t have been overwhelmed by the Titanic syndrome. Archiduino is more rob
 
 Archiduino is born with same technology of his older brother, Archimede (an ARM STM32 running in .NET), which is currently used in a wide range of environments. Both are EMC certified according to EN 61326-1:2013 class A requirements, then we say: yes, you can use it in an industrial environment, according to the disclaimer.
 
-**What do I do if I need to use Archiduino in critical environments?*
+**What do I do if I need to use Archiduino in critical environments?**
 
 Archiduino has been engineered and designed to meet the needs of people working in industrial environments. Every SnipCard is protected with ESD/EMI/RF/Transients/Spikes rejector devices. Transient voltage suppressor are scattered in any potential external connection. Even simple external pushbuttons are connected to Archiduino through 2.5KV-capable optocouplers. There are NO BARE PINS directly connected to the real world! Beyond these considerations, if you need to use it in kinda critical applications and you're not sure if... you're sure, feel free to contact us: we’ll be glad to give you every advice or information you need about.
 

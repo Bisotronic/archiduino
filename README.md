@@ -12,7 +12,7 @@ Archiduino is an universal modular controller. It means that if you have anythin
 
 **How can I program it?**
 
-Archiduino is 100% software compatible with Arduino. It mounts the same Atmel processor ATMega32U4 of Arduino Leonardo. In fact, you get the USB cable, connect it from PC to Archiduino and open Arduino IDE. Then, in Tools menu, set the Arduino type as Arduino Leonardo, giving it the right communication port and… voila, you’re ready to go.
+Archiduino is 100% software compatible with Arduino. The Archiduino32 mounts the same Atmel processor ATMega32U4 of Arduino Leonardo. In fact, you get the USB cable, connect it from PC to Archiduino and open Arduino IDE. Then, in Tools menu, set the Arduino type as Arduino Leonardo, giving it the right communication port and… voila, you’re ready to go. The Archiduino1284 mounts ATMega1284p MCU; this processor need a specific board definition that you could find in our repository.
 
 **Are you saying that I can load any Arduino sketch into Archiduino?**
 
@@ -38,7 +38,7 @@ digitalWrite(A3, LOW);
 digitalWrite(A3, LOW);
 ```
 
-The configuration files make the magic and route your signals between processor and I/O modules (hence the prefix M). With the code above we said to the CPU that a LOW status must be written on the A channel of Module 7. So the dual relay SnipCard we put in the socket of module n. 7 receive our command on channel A. If we need to operate on the second relay, we just change the channel to M7B.
+The configuration files make the magic and route your signals between processor and I/O modules (hence the prefix M). With the code above we said to the CPU that a LOW status must be written on the A channel of Module 7. So the dual relay SnipCard we put in the socket of module n. 7 receive our command on channel A. If we need to operate on the second channel, we just change the pin to M7B.
 
 *Is Archiduino reliable and enough electrically protected, in order to be used in critical environments?**
 
@@ -53,15 +53,15 @@ We don’t have been overwhelmed by the Titanic syndrome. Archiduino is more rob
 
 **What if I try to use it in a challenging industrial environment?**
 
-Archiduino is born with same technology of his older brother, Archimede, which is currently used in a wide range of environments. Both are EMC certified according to EN 61326-1:2013 class A requirements, then we say: yes, you can use it in an industrial environment, according to the disclaimer.
+Archiduino is born with same technology of his older brother, Archimede (an ARM STM32 running in .NET), which is currently used in a wide range of environments. Both are EMC certified according to EN 61326-1:2013 class A requirements, then we say: yes, you can use it in an industrial environment, according to the disclaimer.
 
 **What do I do if I need to use Archiduino in critical environments?*
 
-If you need to use it in kinda critical applications, feel free to contact us: we’ll be glad to give you every advice or information you need about.
+Archiduino has been engineered and designed to meet the needs of people working in industrial environments. Every SnipCard is protected with ESD/EMI/RF/Transients/Spikes rejector devices. Transient voltage suppressor are scattered in any potential external connection. Even simple external pushbuttons are connected to Archiduino through 2.5KV-capable optocouplers. There are NO BARE PINS directly connected to the real world! Beyond these considerations, if you need to use it in kinda critical applications and you're not sure if... you're sure, feel free to contact us: we’ll be glad to give you every advice or information you need about.
 
 **Okay, that’s great, but: is Archiduino *too industrial* to be used for hobby purposes?**
 
-Oh, man. No! Archiduino is born to be a reliable playfellow for everybody playing in the range from “rookie player” to “Tenth-Dan master of electronics”. It uses the familiar Arduino language, easy and commonly known, and the easiest I/O logic of the Arduino environment in order to meet the hobbyist needs. But, at same time, it’s strong and well armored to be applied on such battle field like industrial environments. In other words: USE IT everywhere you want, it’s great, it’s reliable, it’s sturdy and easy to use. *What else, guy?*
+Oh, man. No! Archiduino is born to be a reliable playfellow for everybody operating in the range from “rookie maker” to “Tenth-Dan master of electronics”. It uses the familiar Arduino language, easy and commonly known, and the easiest I/O logic of the Arduino environment in order to meet the hobbyist needs. But, at same time, it’s strong and well armored to be applied on such battle field like industrial environments. In other words: **USE IT everywhere you want, it’s great, it’s reliable, it’s sturdy and easy to use.** *What else, guy?*
 
 ##About us
 
